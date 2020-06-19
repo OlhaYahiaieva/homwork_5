@@ -204,7 +204,6 @@ img {
 .new-collection-picture {
   position: relative;
   float: left;
-  height: 0 auto;
 }
 .new-collection-picture:not(:nth-child(4n + 4)) {
   margin-right: 30px;
@@ -254,14 +253,13 @@ img {
 }
 .new-collection-button {
   position: absolute;
-  top: 8px;
-  left: 10px;
+  top: 0;
+  left: 0;
+  height: 100%;
   margin-bottom: 10px;
   opacity: 0;
   background-color: rgba (0, 0, 0, 0.6);
-  width: 235px;
-  height: 235px;
-  border: 1px solid #ffffff;
+  border: 10px solid #ffffff;
   transition: 0.3s;
 }
 .new-collection-picture:hover .new-collection-button {
